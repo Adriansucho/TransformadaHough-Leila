@@ -46,7 +46,7 @@ namespace WindowsFormsApp1
             CajaImagen.SizeMode = PictureBoxSizeMode.Zoom;
             BtnEjecutar.Enabled = true;
         }
-        public Bitmap EscalaDeGris(Bitmap ImgCargada, int val)//obtenemos una imagen con solo dos colores
+        public Bitmap EscalaDeGris(Bitmap ImgCargada, int val)//obtenemos una imagen Blanco y Negro
         {
             Bitmap ImgBN = new Bitmap(ImgCargada);
             for (int i = 0; i < ImgBN.Width; i++)
